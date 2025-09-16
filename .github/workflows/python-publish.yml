@@ -27,9 +27,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Publish to Registry
-        uses: afzalkunnath/Publish-Docker-Github-Action@v5
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
-            name: myDocker/repository
+            name: afzalkunnath/repository
             username: afzalkunnath
             password: Afzal@#$890
             registry: docker.io
