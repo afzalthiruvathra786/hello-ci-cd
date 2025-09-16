@@ -32,5 +32,6 @@ jobs:
             name: myDocker/repository
             username: afzalkunnath
             password: Afzal@#$890
+            registry: docker.io
      
     
