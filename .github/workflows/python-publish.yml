@@ -30,8 +30,8 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@v5
         with:
             name: afzalkunnath/repository
-            username: afzalkunnath
-            password: Afzal@#$890
+            username: ${{secret.DOCKERHUB_USERNAME}}
+            password: ${{secret.DOCKERHUB_PASSWORD}}
             registry: docker.io
      
     
